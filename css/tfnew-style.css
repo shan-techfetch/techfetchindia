@@ -1,0 +1,2962 @@
+﻿/* Theme Variables */ /* Optional Variables Ex- Success, Error, Info, Warning */ /* Default Black and White Colors */ /* Mixins */ /* Gradients */ /* Transition */ /* Box Sizing */ /* Box Shadow */ /* Border Radius */ /* Opacity */ /*opens-sans - font face start*/ /*Font Face Rule For 'Open Sans'*/ /* cyrillic-ext */
+@font-face {
+    font-family: 'LatoWeb';
+    src: url('/resources/Lato/Lato-Regular.eot'); /* IE9 Compat Modes */
+    src: url('/resources/Lato/Lato-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/resources/Lato/Lato-Regular.woff2') format('woff2'), /* Modern Browsers */
+         url('/resources/Lato/Lato-Regular.woff') format('woff'), /* Modern Browsers */
+         url('/resources/Lato/Lato-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+
+/*JS Login Page css - start*/
+.ht15{height:15px;}
+ .font {
+            font-size: 15px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+
+
+        .padleft0 {
+            padding-left: 0px;
+        }
+
+
+        .input-group-addon {
+            background-color: #fff;
+        }
+
+        .btn {
+            border-radius: 1px;
+        }
+
+        .form-control {
+            border-radius: 0px !important;
+            box-shadow: inset 0 0px 0px rgba(0,0,0,.075) !important;
+            color: #000;
+        }
+
+        a, a:hover, a:active {
+            outline: none !important;
+            color: #000;
+        }
+
+        .filtertext a:hover {
+            color: #5a5a5a;
+        }
+
+        .input-group[class*=col-] {
+            float: left;
+        }
+
+       
+
+
+        .row:after, .row:before {
+            display: table;
+            content: " ";
+            clear: both;
+        }
+
+
+
+        .padtop20 {
+            padding-top: 20px;
+        }
+
+
+        .Head {
+            height: auto;
+            background-color: #fff;
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+            border-radius: 2px;
+            background-color: #ffffff;
+            box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+            border: solid 0.5px rgba(204, 204, 204, 0.5);
+            margin-top:100px;
+        }
+
+        .headtitle {
+            padding-top: 15px;
+            color: #2fbc6c;
+            font-size: 17px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.3px;
+        }
+
+@media(min-width:767px) and (max-width:991px) {
+    .ContentHead {
+        font-size: 19px !important;
+    }
+}
+
+        .ContentHead {
+            font-size: 24px;
+            font-weight: 300;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.3px;
+            text-align: left;
+            color: #000;
+        }
+
+
+
+        .jobapplication {
+            font-size: 15px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.3px;
+            text-align: left;
+            color: #434343;
+        }
+          .takesec {
+            font-size:15px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.3px;
+            text-align: left;
+            color: #434343;
+            opacity: 0.6;
+        }
+
+        .bottomdiv {
+            padding-right: 0px !important;
+            padding-left: 0px !important;
+        }
+
+        .borderright {
+            padding-right: 0px !important;
+            padding-left: 0px !important;
+        }
+
+        .padcontent {
+            padding: 40px 30px 30px 30px !important;
+        }
+
+        .padbody {
+            padding: 7% 7% 7% 7% !important;
+        }
+        
+        
+
+        .inputcontroldiv {
+            padding: 75px 40px 40px 40px !important;
+            height: auto;
+            border-left: solid 1px #ebecec;
+        }
+
+        .textlbl {
+            font-size: 15px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.3px;
+            color: #000;
+        }
+
+        .Txtbox {
+            height: 48px !important;
+            border: solid 0.5px #d6d7e0;
+            padding:13px !important;
+        }
+
+        .chkbox {
+            width: 14px;
+            height: 14px;
+            border-radius: 2px;
+            position: relative;
+        }
+
+        .padtop15 {
+            padding-top: 15px;
+            display: inherit;
+        }
+
+        .container {
+            width: inherit;
+        }
+
+        span a {
+            text-decoration: underline;
+            color: #434343;
+        }
+         span a:hover {
+            text-decoration: underline;
+            color: #434343;
+        }
+
+        .signupbtn {
+            width: 100%;
+            height: 48px;
+            background-color: #e74c3c !important;
+            border: solid 1px #f15025;
+            font-size: 14px;
+            font-weight: bold;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 1.0px;
+            text-align: center;
+            color: #fff !important;
+            text-transform:uppercase;
+        }
+
+            .signupbtn:hover, .signupbtn:focus {
+                color: #fff !important;
+                background-color: #e74c3c !important;
+            }
+
+        .padbottom10 {
+            padding-bottom: 10px;
+        }
+
+        .padtop5 {
+            padding-top: 5px;
+        }
+
+        .linkTxt {
+            height: 16px;
+            font-size: 13px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.3px;
+            text-align: left;
+            color: #434343;
+        }
+
+
+
+        .pageborder {
+            background-color: #fafafa;
+            padding-right: 0px;
+            padding-left: 0px;
+        }
+
+
+        .padtop10 {
+            padding-top: 10px;
+        }
+
+        ::-webkit-input-placeholder {
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.3px;
+            color: #000;
+            opacity: 0.4;
+        }
+
+        ::-moz-placeholder {
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.3px;
+        }
+
+        :-ms-input-placeholder {
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.3px;
+        }
+
+        ::-ms-input-placeholder {
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.3px;
+        }
+        .rectangle {
+            min-height: 70px;
+            background-color: #fff;
+            -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05), 0 1px 0 0 rgba(0, 0, 0, 0.05);
+            -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05), 0 1px 0 0 rgba(0, 0, 0, 0.05);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05), 0 1px 0 0 rgba(0, 0, 0, 0.05);
+        }
+
+        .rightalg {
+            text-align: right;
+        }
+
+       
+
+        .activationerr {
+            color: #FF0000;
+            font-size: 13px;
+            line-height: 14px;
+        }
+
+        .validtxt {
+            font-size: 13px;
+            font-weight: 500;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 2.75;
+            letter-spacing: 0.3px;
+            text-align: left;
+            color: #fe535a;
+            /*text-align: right;*/
+        }
+
+        .heightalign
+        {
+            line-height:2.75;
+        }
+        .pdleft0{
+            padding-right:0px !important;
+            text-align:right;
+        }
+        .txtrightpd0{
+            padding-left:0px !important;
+            text-align:left;
+        }
+         .padponits {
+            padding: 0px 30px 30px 30px;
+        }
+        .contentpoints {
+            list-style-type: disc;
+            color: #e74c3c;
+            padding-left: 30px;
+        }
+
+            .contentpoints li {
+                padding-top: 10px;
+            }
+
+        .pointstxt {
+            font-size: 15px;
+            font-weight: 300;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.3px;
+            text-align: left;
+            color: #434343;
+          
+        }
+        .opac
+        {
+           font-size: 15px;
+            font-weight: 300;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.3px;
+            text-align: left;
+            color: #434343;
+            opacity: 0.4;
+        }
+        .forget {
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.3px;
+            text-align: left;
+            color: #434343;
+            text-decoration:underline;
+        }
+        .mrgleft30 {
+            margin-left: 30px;
+        }
+           .logowidt h{
+            max-width: 150px;
+            height: 50px;
+        }  
+img.respimg{width:100%;}
+#loginimgdiv img.respimg {max-width: 392px;}
+        @media(min-width:1200px) {
+            .padbody {
+                /*padding: 10% 15% 10% 15% !important;*/
+                padding: 1% 1% 1% 1% !important;
+            }
+          
+        }
+      
+
+        @media(max-width:767px) {
+            .inputcontroldiv {
+                border: none;
+            }
+
+            .inputcontroldiv {
+                padding: 50px 30px 50px 30px;
+            }
+        }
+
+        @media(min-width:992px) and (max-width:1600px) {
+            .padleft0 {
+                padding-left: 0px;
+            }
+        }
+
+        @media(min-width:500px) and (max-width:767px) {
+            .padleft0 {
+                padding-left: 0px;
+            }
+        }
+
+        @media(min-width:768px) and (max-width:827px) {
+            .inputcontroldiv {
+                padding: 45px 45px 45px 45px;
+            }
+        }
+        @media(max-width: 767px) {
+
+            .xsalign {
+                text-align: center;
+            }
+        }
+
+/* JS Login Page css - end-*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*JS Quick Reg page CSS - Start*/
+#alertify
+      {
+          top:32%;
+      }
+
+#alertify {
+            top: 32%;
+        }
+        .btn-apply:hover, .btn-apply:focus {
+            background-color: #0064CD;
+            color: white;
+            border: solid 1px #9c9a9a;
+            text-decoration: none;
+        }
+
+
+        .font {
+            font-size: 15px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+
+
+        .padleft0 {
+            padding-left: 0px;
+        }
+
+
+        .input-group-addon {
+            background-color: #fff;
+        }
+
+        .btn {
+            border-radius: 1px;
+        }
+
+        .form-control {
+            border-radius: 0px;
+            box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+            color: #000;
+        }
+
+        a, a:hover, a:active {
+            text-decoration: none;
+            outline: none !important;
+            color: #000; 
+        }
+
+        .filtertext a:hover {
+            color: #5a5a5a;
+        }
+
+        .input-group[class*=col-] {
+            float: left;
+        }
+
+        .padbottom15 {
+            padding-bottom: 15px;
+        }
+
+
+        .row:after, .row:before {
+            display: table;
+            content: " ";
+            clear: both;
+        }
+
+
+
+        /*.padtop20 {
+            padding-top: 20px;
+        }*/
+
+
+        .Head.Headsignup {
+            margin-top:0px !important;
+            border: none !important;
+        }
+
+        /*.ContentHead {
+            font-size: 24px;
+            font-weight: 300;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.3px;
+            text-align: left;
+            color: #000;
+        }*/
+
+
+
+        /*.jobapplication {
+            font-size: 15px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.3px;
+            text-align: left;
+            color: #434343;
+        }*/
+        /*.takesec {
+            font-size:15px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.3px;
+            text-align: left;
+            color: #434343;
+            opacity: 0.6;
+        }*/
+
+        .Headsignup .bottomdiv {
+            background-color: #fff;           
+            border-radius: 6px;
+            background-color: #ffffff;
+            border: solid 0.5px rgba(204, 204, 204, 0.5);
+        }
+
+        /*.borderright {
+            padding-right: 0px;
+            padding-left: 0px;
+        }*/
+
+        /*.padcontent {
+            padding: 40px 30px 30px 30px;
+        }*/
+
+        .padbodysignup {
+            padding: 7% 7% 7% 7% !important;
+        }
+        #Signup.inputcontroldiv {
+            padding: 40px 40px 40px 40px !important;
+        }
+
+        .textlbl {
+            font-size: 15px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.3px;
+            color: #000;
+        }
+
+        .Txtbox {
+            height: 48px;
+            padding:13px;
+        }
+
+        .chkbox {
+            width: 14px;
+            height: 14px;
+            border-radius: 2px;
+            position: relative;
+        }
+
+
+
+        .subscribetxt {
+            font-size: 12px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.5;
+            letter-spacing: 0.3px;
+            text-align: left;
+            color: #434343;
+        }
+
+        /*.padtop15 {
+            padding-top: 15px;
+            display: inherit;
+        }*/
+
+        .container {
+            width: inherit;
+        }
+
+        .termspolicychk {
+            font-size: 12px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.67;
+            letter-spacing: 0.3px;
+            text-align: left;
+            color: #434343;
+            padding-top: 20px;
+        }
+
+        span a {
+            text-decoration: underline;
+            color: #434343;
+        }
+           span a:hover {
+            text-decoration: underline;
+            color: #434343;
+        }
+
+        .signupbtn {
+            width: 100%;
+            height: 48px;
+            background-color: #ec5939 !important;
+            border: solid 1px #ec5939;
+            font-size: 14px;
+            text-align: center;
+            color: #fff;
+            font-weight: bold;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 1.0px;
+            color: #ffffff;
+        }
+
+            .signupbtn:hover, .signupbtn:focus {
+                color: #fff;
+                background-color: #ec5939;
+            }
+
+        .padbottom10 {
+            padding-bottom: 10px;
+        }
+
+        .padtop5 {
+            padding-top: 5px;
+        }
+
+        .alreadyregTxt {
+            height: 16px;
+            font-size: 13px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.3px;
+            text-align: left;
+            color: #434343;
+        }
+
+
+
+        .pageborder {
+            background-color: #fafafa;
+            padding-right: 0px;
+            padding-left: 0px;
+        }
+
+        /*.logowidth {
+            max-width: 150px;
+            height: 50px;
+        }*/
+
+       
+
+        .contain {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+            /* Hide the browser's default checkbox */
+            .contain input {
+                position: absolute;
+                opacity: 0;
+            }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 19px;
+            width: 19px;
+            background-color: #fff;
+            border: solid 1.7px #cccfd4;
+            border-radius: 2px;
+        }
+
+
+
+        /* When the checkbox is checked, add a blue background */
+        .contain input:checked ~ .checkmark {
+            background-color: #2196F3;
+            border: none;
+        }
+
+        /* Create the checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .contain input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .contain .checkmark:after {
+            left: 4px;
+            top: 1px;
+            width: 6px;
+            height: 10px;
+            border: solid white;
+            border-width: 0 3px 3px 0;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+
+        ::-webkit-input-placeholder {
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.3px;
+            color: #000;
+            opacity: 0.4;
+        }
+
+        ::-moz-placeholder {
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.3px;
+        }
+
+        :-ms-input-placeholder {
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.3px;
+        }
+
+        ::-ms-input-placeholder {
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.3px;
+        }
+
+         .upload {
+            border-radius: 2px;
+            background-color: rgba(153, 153, 153, 0.05);
+            border: dashed 2px #d6d7e0;
+        }
+
+            .upload input {
+                position: absolute;
+                margin: 0;
+                padding: 0;
+                width: 85%;
+                height: 100px;
+                outline: none;
+                opacity: 0;
+            }
+
+ .dragtxt {
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        .dragtxtclr {
+            font-size: 16px;
+            font-style: normal;
+            color: #999999;
+        }
+
+        .dragtxtclkhere {
+            font-size: 16px;
+            font-style: normal;
+            color: #e74c3c;
+        }
+
+        .fileformattxt {
+            font-size: 13px;
+            font-weight: normal;
+            font-style: italic;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.3px;
+            text-align: center;
+            color: #999999;
+        }
+
+        .rectangle {
+            min-height: 70px;
+            background-color: #fff;
+            -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05), 0 1px 0 0 rgba(0, 0, 0, 0.05);
+            -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05), 0 1px 0 0 rgba(0, 0, 0, 0.05);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05), 0 1px 0 0 rgba(0, 0, 0, 0.05);
+        }
+
+       
+         
+		span a {
+            text-decoration: underline;
+            color: #434343;
+        }
+           .padponits {
+            padding: 0px 30px 30px 30px;
+        }
+            .ContentHead {
+            font-size: 24px;
+            font-weight: 300;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.3px;
+            text-align: left;
+            color: #000;
+        }
+
+        .termspolicychk .haserror {
+            padding-right: 30px;
+        }
+
+        #Signup .validtxt {
+            text-align: left;
+            min-height:15px;
+        }
+
+        /*.heightalign {
+            line-height: 0.75;
+        }*/
+
+        .padponits {
+            padding: 40px 30px 30px 30px;
+        }
+
+
+        .contentpoints {
+            list-style-type: none;
+            color: #e74c3c;
+            padding-left: 5px;
+        }
+            .contentpoints li:before {
+                content: '✓';
+                color: #000;
+            }
+
+            .contentpoints li {
+                padding-top: 10px;
+            }
+
+        .pointstxt {
+            font-size: 15px;
+            font-weight: 300;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.3px;
+            text-align: left;
+            color: #434343;
+			padding-right:5px;
+        }
+
+        .opac {
+            font-size: 15px;
+            font-weight: 300;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.3px;
+            text-align: left;
+            color: #434343;
+            opacity: 0.4;
+        }
+
+       
+        .pointeradd {
+            cursor: pointer;
+        }
+
+        .Headborder {
+            padding-left: 0px;
+            border-radius: 6px;
+            background-color: #ffffff;
+            border: solid 0.5px rgba(204, 204, 204, 0.3);
+        }
+
+        .headtitle {
+            padding-top: 20px;
+            color: #2fbc6c;
+            font-size: 17px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.3px;
+        }
+           .mrgleft30 {
+            margin-left: 30px;
+        }
+#signupimgdiv img.respimg {max-width: 392px;}
+         @media(min-width:1200px) {
+            .padbodysignup {
+                padding: 5% 15% 5% 15% !important;
+            }
+        }
+       
+
+        @media(max-width:767px) {
+            .inputcontroldiv {
+                border: none;
+            }
+
+            .inputcontroldiv {
+                padding: 50px 30px 50px 30px;
+            }
+        }
+
+        @media(min-width:992px) and (max-width:1600px) {
+            .padleft0 {
+                padding-left: 0px;
+            }
+            .headtitle {
+                padding-left: 0px;
+            }
+        }
+
+        @media(min-width:500px) and (max-width:767px) {
+            .padleft0 {
+                padding-left: 0px;
+            }
+
+            .headtitle {
+                padding-left: 0px;
+            }
+        }
+
+        @media(max-width:641px) {
+            .headtitle {
+                padding-top: 9px;
+            }
+        }
+
+        @media(min-width:768px) and (max-width:822px) {
+            .headtitle {
+                padding-top: 12px;
+            }
+        }
+
+
+
+
+
+        @media(min-width:768px) and (max-width:827px) {
+            #Signup.inputcontroldiv {
+                padding: 45px 45px 45px 45px !important;
+            }
+        }
+
+        @media(min-width:320px) and (max-width:389px) {
+            .upload {
+                height: 144px;
+            }
+        }
+
+        @media(min-width:390px) and (max-width:439px) {
+            .upload {
+                height: 123px;
+            }
+        }
+
+        @media(min-width:768px) and (max-width:828px) {
+            .upload {
+                height: 144px;
+            }
+        }
+
+        @media(min-width:829px) and (max-width:961px) {
+            .upload {
+                height: 123px;
+            }
+        }
+
+         @media(max-width: 767px) {
+            .xsalign {
+                text-align: center;
+            }
+        }
+          @media (max-width:767px) {
+            .padponits {
+                padding: 0px 30px 30px 30px;
+            }
+        }
+           @media(max-width:384px) {
+            .imgshow2 {
+                display: block;
+            }
+
+            .imgshow1 {
+                display: none;
+            }
+        }
+
+        @media(min-width:385px) {
+            .imgshow1 {
+                display: block;
+            }
+
+            .imgshow2 {
+                display: none;
+            }
+        }
+
+/*JS Quick Reg page CSS - End*/
+
+/*ForgetPwd page css - start*/
+#RadCaptcha1_CaptchaImageUP{border: 1px solid #ccc;}
+.innercon {background-color: #F0F0F0;border: 1px solid gainsboro;display: block; font-size:13px;}     
+span.innercon {padding-left: 15px;padding-right: 15px;}
+#forgotpassword .form-control:focus {outline: none !important;}
+#forgotpassword a,  #forgotpassword a:hover,  #forgotpassword a:active {outline: none !important;font-size: 13px !important;}
+#forgotpassword .padtop10.linkfont{font-size: 13px !important; color: #666 !important;}
+.Forgetblock {padding: 40px 30px 20px 30px !important;border-radius: 2px;border: solid 0.5px rgba(204, 204, 204, 0.5) !important;left: 50%;width: 445px !important;min-height: 445px !important;margin-top: 7%;margin-bottom: 10%;margin-left: -15em;background-color: #ffffff;border: solid 0.5px rgba(204, 204, 204, 0.5);letter-spacing: 0.3px;}
+#forgotpassword .title {font-size: 18px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: 0.3px;text-align: left;color: #000000;}
+#forgotpassword .txtbox {border-radius: 1px;background-color: #ffffff;border: solid 0.5px #d6d7e0;}
+#forgotpassword  #btnSubmit {border-radius: 4px;background-color: #ee5830;border: solid 0.5px #f15025;font-weight: bold;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: 1.0px;text-align: center;color: #ffffff;width: 100%;padding: 14px 0px;font-size: 12px;}
+.linkfont {font-weight: normal;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: 0.3px;text-align: left;}
+.txtlbl {font-weight: normal;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: 0.3px;text-align: left;color: #000000;font-size:15px;}
+.divbody{background-color: #fafafa;}.height2{height:2px;}#forgotpassword  .font15 {color: #666 !important;}.txtheight40{height:40px !important;letter-spacing:0.3PX;border-radius:4px !important;}
+#forgotpassword .form-control{font-size:14px !important;color: #333 !important;}
+#forgotpassword .dvC {TEXT-DECORATION: none;text-align: center;line-height: 1.8em;padding-top: 25%;margin-left: 6%;margin-right: 6%;font-size: 13px;color:#666 !important;}
+@media (max-width: 767px){#page-container {min-height: initial !important;}}
+@media (min-width: 768px) and (max-width: 991px){div#page-container {min-height: 500px !important;}}
+/* ForgetPwd page css - end */
+
+/* Reset Pwd page css - start */
+#passwordreset .dvRes{TEXT-DECORATION: none;text-align:center;margin-top:36%;margin-left:10%;margin-right:10%;}
+#passwordreset .dvRes a{COLOR: #4e8abe;text-decoration:underline;}
+#passwordreset .dvRes a:hover{COLOR: #4e8abe;text-decoration:underline;}
+#passwordreset .innerconpwdreset{background-color:#f0f0f0; border:1px solid #dcdcdc;display:block;padding:2%;}
+#passwordreset .form-control:focus {outline: none;}
+#passwordreset a, #passwordreset a:hover, #passwordreset a:active {text-decoration: none !important;outline: none !important;color: #000 !important;}
+.resetblock {padding: 40px 30px 20px 30px !important;border-radius: 2px;border: solid 0.5px rgba(204, 204, 204, 0.5);left: 50%;width: 445px !important;min-height: 337px;margin-top: 7%;margin-bottom: 17%;margin-left: -15em;background-color: #ffffff;border: solid 0.5px rgba(204, 204, 204, 0.5);letter-spacing: 0.4px;}
+#passwordreset .title {font-size: 18px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: 0.3px;text-align: left;color: #000000;}
+#passwordreset #btnSubmit {border-radius: 4px;background-color: #ee5830;border: solid 0.5px #f15025;font-weight: bold;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: 1.0px;text-align: center;color: #ffffff;width: 100%;padding: 14px 0px;font-size: 12px;}
+#passwordreset .linkfont {color: #434343;}
+#passwordreset span a:hover {color: #000;}
+#passwordreset .txtlbl {letter-spacing: normal;}
+#passwordreset .font15 {font-size: 15px !important;color: #666 !important;font-weight: 500 !important;}
+#passwordreset .txtheight40 {letter-spacing: 0.4PX;}
+#passwordreset span.innerconpwdreset {color: #666666 !important;font-size: 13px !important;}
+@media (width:578px) {#passwordreset .dvRes {margin-top: 15%;}}
+@media (max-width: 768px) {#passwordreset {min-height: initial !important;}}
+/* Reset Pwd page css - end */
+
+
+/* js add and edit resume*/
+#cssmenu2 ul li.active {
+    background-color: #ffffff !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
+    font-stretch: normal !important;
+    line-height: normal !important;
+    letter-spacing: normal !important;
+    text-align: center !important;
+    color: #26363f !important;
+    background-image: none !important;
+    border-bottom: none !important;
+    top: 1px;
+    height: 62px !important;
+
+}
+#cssmenu2 ul li {
+    margin: 0px !important;
+    width: 151px !important;
+    height: 50px !important;
+    float: left !important;
+    background-image: linear-gradient(to top, #f4f7fa, #ffffff) !important;
+    border-radius: 3px !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
+    font-stretch: normal !important;
+    line-height: normal !important;
+    letter-spacing: normal !important;
+    text-align: center !important;
+    color: #26363f !important;
+    border: solid 0.5px #e6eaee !important;
+    margin-right: 10px !important;
+}
+#cssmenu2 > ul > li.active {
+    border-right: solid 0.5px #e6eaee !important;
+}
+#cssmenu2 > ul > li:hover > a {
+    border-right: solid 0.5px #e6eaee !important;
+}
+#cssmenu2 > ul > li {
+    top: 13px;
+    height: 50px !important;
+}
+#cssmenu2 ul li.active > a {
+    font-size: 16px !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    font-stretch: normal !important;
+    line-height: normal !important;
+    letter-spacing: normal !important;
+    text-align: center !important;
+    color: #000000 !important;
+}
+#cssmenu2 ul li > a {
+    border-radius: 3px !important;
+    font-size: 14px !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    font-stretch: normal !important;
+    line-height: normal !important;
+    letter-spacing: normal !important;
+    text-align: center !important;
+    color: #000000 !important;
+}
+#cssmenu2 ul li > a:hover {
+    background-color: #ffffff !important;
+    height: 48px !important;
+    border: solid 0.5px #e6eaee !important;
+    border-bottom: none !important;
+}
+@media only screen and (max-width: 992px) and (min-width: 600px) {
+    .nav-tabs > li {
+        width: auto !important;
+        float: none !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    #cssmenu2 ul li {
+        width: 100% !important;
+    }
+
+        #cssmenu2 ul li.active {
+            top: 0px;
+            height: 49px !important;
+        }
+
+    #cssmenu2 > ul > li {
+        top: 0px !important;
+        height: 50px !important;
+    }
+
+    #cssmenu2 ul li.active a {
+        background-color: #ffffff !important;
+        border-bottom: 1px solid #d4d1d1 !important;
+    }
+
+    #cssmenu2 ul li > a {
+        border-radius: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #cssmenu2 ul li.active {
+        top: 2px;
+        max-height: 51px !important;
+    }
+
+    #cssmenu2 > ul > li {
+        top: 0px !important;
+        height: 50px !important;
+    }
+}
+
+@media only screen and (max-width: 1370px) and (min-width: 1130px) {
+    #cssmenu2 ul li {
+        width: 125px !important;
+    }
+
+        #cssmenu2 ul li > a {
+            font-size: 14px !important;
+        }
+
+        #cssmenu2 ul li.active > a {
+            font-size: 16px !important;
+        }
+}
+
+@media(max-width:1130px) and (min-width: 1024px) {
+    #cssmenu2 ul li > a {
+        font-size: 9px !important;
+    }
+
+    #cssmenu2 ul li {
+        width: 98px !important;
+    }
+
+        #cssmenu2 ul li.active > a {
+            font-size: 9px !important;
+        }
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 600px) {
+    #rdbtnNH1B {
+        padding-left: 0px !important;
+    }
+ }
+
+@media (max-width: 768px) {
+    .fieldname {
+        text-align: left !important;
+    }
+}
+
+.distbl-cell {
+    display: block !important;
+}
+
+.dispnone {
+    display: none;
+}
+
+.contentblockbg {
+    border-radius: 2px !important;
+    background-color: #ffffff !important;
+    border: solid 0.5px #e6eaee !important;
+}
+.radiocontainer {
+    display: inline-block;
+    position: relative !important;
+    padding-left: 30px !important;
+    margin-bottom: 12px !important;
+    cursor: pointer !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+    color: #434343 !important;
+}
+    .overallblk {
+        border-radius: 3px;
+        background-color: #ffffff;
+        box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    }
+    .radiocontainer input {
+        position: absolute;
+        opacity: 0;
+    }
+.chkcontainer {
+    display: block;
+    /*position: relative;*/
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.chkcontainer input {
+    position: absolute;
+    opacity: 0;
+}
+.chkcontainer input:checked ~ .checkmark {
+    background-color: #3498db;
+    border: solid 0 #3498db;
+    border: none;
+}
+.chkcontainer input:checked ~ .checkmark {
+    background-color: #2196F3;
+    border: none;
+}
+
+ /* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+ /* Show the checkmark when checked */
+.chkcontainer input:checked ~ .checkmark:after {
+    display: block;
+}
+
+ /* Style the checkmark/indicator */
+.chkcontainer .checkmark:after {
+    left: 7px;
+    top: 2px;
+    width: 7px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.roundcheckmark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fcfcfc;
+    border: solid 0.5px #e6eaee;
+    border-radius: 50%;
+    margin-top : -2px;
+}
+
+.radiocontainer:hover input ~ .roundcheckmark {
+    background-color: #fff;
+}
+
+.radiocontainer input:checked ~ .roundcheckmark {
+    background-color: #3498db !important;
+    border: 2px solid #3498db !important;
+}
+.roundcheckmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.radiocontainer input:checked ~ .roundcheckmark:after {
+    display: block;
+}
+
+.radiocontainer .roundcheckmark:after {
+    top: 5px;
+    left: 5px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #ffffff;
+}
+.radiofieldname {
+    opacity: 0.6 !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+    font-stretch: normal !important;
+    line-height: normal !important;
+    letter-spacing: normal !important;
+    text-align: left !important;
+    color: #000000 !important;
+    font-size: 16px !important;
+}
+              .chkboxfieldname {
+           opacity: 0.6 !important;
+           font-weight: 500 !important;
+    font-style: normal !important;
+    font-stretch: normal !important;
+    line-height: normal !important;
+    letter-spacing: normal !important;
+    text-align: left !important;
+    color: #000000 !important;
+    font-size: 16px !important;
+}
+.fieldname {
+    font-size: 14px !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    font-stretch: normal !important;
+    line-height: normal !important;
+    letter-spacing: 0.2px !important;
+    text-align: right !important;
+    color: #000000 !important;
+    text-transform: uppercase !important;
+}
+fieldnameleft {
+    font-size: 14px !important;
+    font-weight: bold !important;
+    font-style: normal !important;
+    font-stretch: normal !important;
+    line-height: normal !important;
+    letter-spacing: 0.2px !important;
+    text-align: left !important;
+    color: #000000 !important;
+    text-transform:uppercase !important;   
+}
+.fieldtextbox {
+    border-radius: 1px !important;
+    background-color: #fcfcfc;
+    border: solid 0.5px #d3dce3;
+    box-shadow: none !important;
+    font-size: 16px !important;
+    display: block !important;
+    width: 100% !important;
+    height: 34px !important;
+    padding: 3px 12px !important;
+    font-style: normal;
+    font-weight:normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000 !important;
+    background-image: none;
+    outline: none !important;
+    /*transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s !important;*/
+}
+.placeholder {
+    font-size: 14px !important;
+}
+#SkillsUpdatePanel .font14
+{
+    font-size: 14px !important;
+    color: #000000 !important;
+    font-weight:normal !important;
+}
+.dispnone {
+    display: none;
+}
+.padleft10
+{
+    padding-left:10px !important;
+}
+.padright0
+{
+    padding-right:0px !important;
+}
+.padrght10 {
+    padding-right: 10px !important;
+}
+.ddlwa {
+    opacity: 0.6 !important;
+    border-radius: 1px !important;
+    background-color: #fcfcfc !important;
+    border: solid 0.5px #d3dce3 !important;
+}
+.specialtext {
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #35528c;
+    font-size: 13px !important;
+    text-transform: initial !important;
+}
+.specialtext1 {
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #009bef !important;
+    font-size:13px !important;
+    text-transform:initial !important;
+}
+.left-menu {
+    display: table-cell;
+    vertical-align: top;
+    width: 100% !important;
+}
+#cssmenu2 > ul > li > a i {
+    display: inline-block !important;
+    margin-bottom: 0px !important;
+}
+.suggkeywwords {
+    border-radius: 1px !important;
+    background-color: #fcfcfc !important;
+    border: solid 0.5px #d3dce3 !important;
+    box-shadow: none !important;
+    font-size: 16px !important;
+    display: block !important;
+    width: 100% !important;
+    padding: 15px !important;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000 !important;
+    background-image: none !important;
+}
+label input[type="radio"]:checked ~ span {
+    color: #000000 !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    font-stretch: normal !important;
+    line-height: normal !important;
+    letter-spacing: normal !important;
+    text-align: left !important;
+    opacity: unset !important;
+    font-size: 16px !important;
+}
+.tfnbtn {
+    border-radius: 2px !important;
+    background-color: #ec5939 !important;
+    border: none !important;
+    padding: 7px !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+    font-style: normal !important;
+    font-stretch: normal !important;
+    line-height: normal !important;
+    letter-spacing: 1.0px !important;
+    text-align: center !important;
+    outline: none !important;
+    margin-bottom: 5px !important;
+    padding: 10px 15px !important;
+    font-size: 12px !important;
+}
+.divlinear {
+    position: relative;
+    z-index: 9;
+    background: #35528c;
+    min-height: 300px;
+}
+    .divlinear:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 400px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: #fafbfc;
+    }
+.mrgtop8 {
+    margin-top: -8px;
+}
+
+.borderboxshadownone {
+    border: none !important;
+    box-shadow: none !important;
+}
+.preftabhead {
+    background-image: none !important;
+    border: none !important;
+    /*border-bottom:none !important;*/
+    background-color: #ffffff !important;
+    font-size: 14px !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    font-stretch: normal !important;
+    line-height: normal !important;
+    letter-spacing: 0.2px !important;
+    text-align: left !important;
+    color: #000000 !important;
+    text-transform: uppercase !important;
+}
+.preftabcontent {
+    border: none !important;
+    background-color: #ffffff !important;
+    padding-top: 15px !important;
+}
+.preftabcontent .form-group:last-child
+{
+    margin-bottom:0px !important; 
+}
+.prefborder {
+    border: solid 1px #d3dce3;
+    border-radius: 1px !important;
+    padding-top: 15px;
+    background-color: #ffffff;
+}
+#PreferenceUpdatePanel .widget-body .padleft20
+{
+    padding-bottom:20px !important;
+}
+.widget .widget-header
+{
+    border:none !important;
+    height:30px !important;
+}
+.respuboptions {
+    padding-top: 0px !important;
+    width: 100%;
+}
+.splopportunities {
+    text-align: left !important;
+    padding-top: 0px !important;
+    padding-left: 10px !important;
+    color:#000000 !important;
+    font-size:16px;
+}      
+.splopportunitiescontrols {
+    padding-right: 0px !important;
+         
+}
+.padtop0
+{
+    padding-top:0px !important;
+}
+.txtalignleft
+{
+    text-align:left !important;
+}
+.toolTip
+{
+    padding-top:3px !important;
+}
+#PreferenceUpdatePanel .checkbox label
+{
+    padding-left:15px !important;
+}
+.padleft30 {
+    padding-left: 30px !important;
+}
+.padleft25
+{
+    padding-left:25px !important;
+}
+.padleft20
+{
+    padding-left:20px !important;
+}
+.WAbordernone {
+    border: none !important;
+    box-shadow: none !important;
+}
+select:disabled {
+    cursor: not-allowed !important;
+}
+.chkcontainer input:disabled ~ .checkmark:hover
+{
+    cursor:not-allowed !important;
+}
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio]
+{
+    margin:0px !important;
+}
+.padleft15
+{
+    padding-left:15px !important;
+}
+button[disabled], html input[disabled]
+{
+    cursor:not-allowed !important;
+}
+.padright5
+{
+    padding-right:5px !important;
+}
+.selectclstext select
+{ padding:2px !important; border-radius:3px;border-top-left-radius: 0;border-bottom-left-radius: 0; font-size:15px;}
+.selectclstext option {  padding: 0px;}
+.widget .widget-header-telerik .title#gridtitle {
+    font-size: 17px;
+    color: #26363f !important;
+}
+.padcenter {
+    padding: 20px 10px 10px 0px;
+}
+.mrgnalign #ddltneadlist.fieldtextbox{width:90% !important;}
+       
+.mrgnalign select#ddlnh1blist{margin-left:20px !important;}
+@media only screen and (max-width: 1400px) and (min-width: 600px) {
+    #rdbtnNH1B {
+        padding-left: 0px !important;
+    }
+}
+.mrgbotminus8 {
+    margin-bottom: -8px;
+}
+@media (max-width: 1399px) and (min-width: 992px) {
+    #lblWorkAuthorization {
+        min-height: 60px !important;
+    }
+}
+@media (max-width: 768px) {
+    .xsalignlft {
+        float: left !important;
+        text-align: left !important;
+        padding-top: 10px;
+    }
+}
+label.radio-inline.radiocontainer.itemwidth.hdnead, 
+        label.radio-inline.radiocontainer.marright.itemwidth{margin-top:5px;}
+        #btnSubmit, #btnProfessional, #btnSkills, #btnPreferences, #btnJobAlert, #btnSpecialNotes, #btnH1BEligible {font-family:"LatoWeb" !important;}
+        #H1bEligiblePanel label{font-family:"LatoWeb" !important;}
+        #page-container #innerdiv{background-color:#ffffff;display: inline-block;border-radius: 3px;padding:15px 50px 0px 50px;padding-bottom: 30px; border: solid 1px #d7d7d7 !important;}
+        @media screen and (max-width:767px) {
+            #cssmenu2 > ul > li > a {padding: 9px 4px !important;}
+           #leftmenu #cssmenu2 > ul > li.active a{background-color: #fafafa !important;color:#333333 !important;border: 1px solid #d7dadc !important;}
+           #cssmenu2 #menu-button{    padding: 24px 17px !important;}
+           #cssmenu2 #menu-button.menu-opened:after, #cssmenu2 #menu-button.menu-opened:before, #cssmenu2 #menu-button:before, #cssmenu2 #menu-button:after{margin-right:10px !important;}
+           #Professional label.radio-inline.radiocontainer {min-width: 132px;}
+           #skillblock2{padding-top:15px;}
+            .suggkeywwords {font-size:14px !important;padding: 10px !important;}
+            .divbody {
+                padding:0px !important;
+            }
+            #rdbtnNH1B
+            {
+                padding-left:0px !important;
+            }
+            .fieldnamealign
+            {
+                text-align:left !important;
+            }
+        }
+@media (min-width:768px) and (max-width:991px) {
+    #cssmenu2 #menu-button {
+        padding: 24px 17px !important;
+    }
+
+        #cssmenu2 #menu-button.menu-opened:after, #cssmenu2 #menu-button.menu-opened:before, #cssmenu2 #menu-button:before, #cssmenu2 #menu-button:after {
+            margin-right: 10px !important;
+        }
+
+    #cssmenu2 > ul > li > a {
+        padding: 9px 4px !important;
+    }
+
+    #cssmenu2 ul li.active {
+        height: 49px !important;
+    }
+
+    #page-container #innerdiv {
+        padding: 15px 15px 30px 15px !important;
+    }
+
+    .divbody {
+        padding: 0px !important;
+    }
+
+    #rdbtnNH1B {
+        padding-left: 0px !important;
+    }
+
+    .fieldnamealign {
+        text-align: left !important;
+    }
+}
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    #cssmenu2 ul li {
+        width: 125px !important;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    #cssmenu2 ul li {
+        width: 135px !important;
+    }
+
+    label input[type="checkbox"]:checked ~ span {
+        font-size: 14px !important;
+    }
+
+    #divFetchAlertMax .col-lg-2.col-md-12.col-sm-12.col-xs-12.mblalign {
+        width: 12% !important;
+    }
+
+    #ddlFetchAlertMax.fieldtextbox {
+        width: 100% !important;
+    }
+
+    label.col-lg-4.col-md-12.col-sm-12.col-xs-12.mblalign.padright.fieldname {
+        white-space: nowrap !important;
+        padding-left: 10px !important;
+    }
+}
+@media (max-width: 1399px) and (min-width: 992px) {
+    .seccwidth {
+        width: 39% !important;
+    }
+}
+#cssmenu2 > ul > li.active a .tickcss {
+    margin-right: 9px;
+}
+#cssmenu2 > ul > li > a {
+    padding: 8px 4px !important;
+}
+.tickcss {
+    top: 7px;
+    margin-top: -16px;
+    font-size: 12px !important;
+    /*margin-right: -50px !important;*/
+    margin-left: 5px !important;
+}
+.incompinfo{font-size:11px;color:red;text-align:center; visibility:hidden; margin:0px !important; margin-top:1px !important; display:inherit;}
+#txtSpecialNotes {
+    min-height: 100px;
+}
+@media (min-width:768px) and (max-width:800px) {
+    #relocationdiv {
+        padding-left: 0px !important;
+        padding-top: 15px !important;
+    }
+
+    #radrelocdiv {
+        padding-right: 5px !important;
+        padding-left: 7px !important;
+    }
+}
+@media (min-width:1000px) and (max-width:1280px) {
+    #locationdiv, #relocationdiv {
+        padding-left: 0px !important;
+    }
+
+    /*.radio-inline {
+        padding-left: 25px !important;
+    }*/
+
+    #radrelocdiv {
+        padding-right: 0px !important;
+    }
+
+    #anywhereusadiv {
+        padding-left: 10px !important;
+    }
+}
+@media (min-width:1200px) {
+    #txtSpecialNotes {
+        min-height: 100px;
+    }
+}
+.load {
+    width: 120px;
+    color: #666666;
+    background: url(/img/Wait.gif) no-repeat 89px 0px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: right;
+}
+
+.savedtext {
+    width: 100px;
+    padding: 2px 0px 5px 5px;
+    color: Green;
+    font-weight: bold;
+    font-size: 14px;
+}
+ .editactive {
+            display: block;
+        }
+
+.editinactive {
+    display: none;
+}
+
+a {
+    -webkit-transition: none !important;
+    transition: none !important;
+}
+
+.RadPicker_Windows7 .rcCalPopup, .RadPicker_Windows7 a.rcDisabled.rcCalPopup:hover {
+    background-position: 0 0 !important;
+}
+
+.RadCalendar_Windows7 .rcTitlebar .rcFastNext {
+    background-position: 0 -500px !important;
+}
+
+.RadCalendar_Windows7 .rcTitlebar .rcNext {
+    background-position: 0 -400px !important;
+}
+
+.RadCalendar_Windows7 .rcTitlebar .rcPrev {
+    background-position: 0 -300px !important;
+}
+
+.RadCalendar_Windows7 .rcTitlebar .rcFastPrev {
+    background-position: 0 -200px !important;
+}
+
+.RadCalendar .rcTitlebar table caption {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+caption {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.RadCalendar_Windows7 .rcMain .rcRow a, .RadCalendar_Windows7 .rcMain .rcRow span {
+    width: 25px !important;
+}
+span.radio {
+    padding: 0px;
+}
+
+span.radio > input[type="radio"] {
+    margin: 8px -5px 7px 0px;
+}
+
+span.radio > label {
+    float: left;
+    margin-right: 5px;
+    padding: 0px 5px 0px 10px;
+}
+.errmsg1 {
+    font: normal 11px 'Open Sans', sans-serif !important;
+    color: #FF0000;
+    margin: 0;
+    padding-top: 2px;
+    padding-left: 5px;
+}
+ .hideimg {
+            background: none;
+        }
+
+.sucimg {
+    background: url('/img/tick-icon.png') no-repeat;
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+}
+
+.errimg {
+    background: url('/img/error-icon.png') no-repeat;
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+}
+@media (max-width:800px) {
+    .mblpadright {
+        padding-right: 0px !important;
+    }
+
+    .mblalign {
+        width: 100% !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    #rdrecruiterdiv .mblpadleft
+    {
+        padding-left:30px !important;
+    }
+    #rdrecruiterdiv.mblpadleft
+    {
+        padding-left:15px !important;
+    }
+    .mblpadleft {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    #rdrecruiterdiv
+    {
+        padding-left:15px !important;
+    }
+  
+
+    .paddingtop {
+        padding-top: 10px !important;
+    }
+
+    #contracttype {
+        margin-left: 0px !important;
+    }
+}
+@media (min-width:801px) and (max-width:1000px) {
+    .mblpadleft {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+     #rdrecruiterdiv .mblpadleft
+    {
+        padding-left:30px !important;
+    }
+     #rdrecruiterdiv.mblpadleft
+    {
+        padding-left:15px !important;
+    }
+    .mblpadright {
+        padding-right: 15px !important;
+    }
+
+    .mblalign {
+        width: 100% !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .paddingtop {
+        padding-top: 10px !important;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .skillpad {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .control-labelH1B {
+        padding-top: 7px;
+        margin-bottom: 0;
+        text-align: left !important;
+        padding-left: 5% !important;
+    }
+
+    #rdodiplomaalign {
+        margin-left: 5% !important;
+    }
+
+    #rdoprofessionalDegreeAlign {
+        margin-left: 6% !important;
+    }
+
+    #wdgtbdy {
+        overflow-x: auto !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .rdbtnAvailabilityafter {
+        margin-left: 0px !important;
+    }
+
+    #GridDock {
+        overflow-x: auto !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+ 
+
+}
+
+@media (min-width:768px) {
+    .control-labelH1B {
+        padding-top: 7px;
+        margin-bottom: 0;
+        text-align: left !important;
+        padding-left: 5% !important;
+        text-indent: -1.4em !important;
+    }
+
+    #rdoalign {
+        padding-left: 10%;
+    }
+
+    #profilePreferTimeToCall {
+        padding-left: 0px !important;
+    }
+
+    #profilePreferTimeToCallOn {
+        padding-right: 0px !important;
+    }
+
+    .upload {
+        position: relative;
+        font-size: 0;
+        white-space: nowrap;
+        width: 1%;
+        vertical-align: middle;
+        display: table-cell;
+    }
+}
+
+@media (min-width:767px) and (max-width:1024px) {
+    #rdomasteralign {
+        margin-left: 0 !important;
+    }
+}
+@media (min-width:1025px) {
+    #professionalhour {
+        white-space: nowrap;
+    }
+}
+
+.control-labelH1Balternative {
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: left !important;
+    padding-left: 5% !important;
+}
+::-webkit-input-va::before {
+    font-family: fontAwesome;
+    content: "\f071";
+    color: #69f;
+}
+@media screen and (min-width:960px) {
+    .prefalign {
+        margin-bottom: 0px !important;
+        margin-right: 4px !important;
+    }
+
+
+
+    .splhgt {
+        height: 235px !important;
+    }
+
+    .pubhgt {
+        height: 235px !important;
+    }
+
+    #divpadd1 {
+        padding-left: 0px;
+    }
+
+    #divpadd2 {
+        padding-left: 0px;
+    }
+
+    #divpadd3 {
+        padding-left: 0px;
+    }
+
+    #divpadd4 {
+        padding-left: 0px;
+    }
+
+    .opt-btn-bg-height-WA {
+        padding-bottom: 15px !important;
+    }
+
+    .opt-btn-bg-height-usdeg {
+        padding-bottom: 7px !important;
+    }
+
+    .opt-btn-bg-height-FA1 {
+        padding-bottom: 35px !important;
+    }
+
+    .opt-btn-bg-height-FA2 {
+        padding-bottom: 8px !important;
+    }
+
+    .opt-btn-bg-height-CW1 {
+        padding-bottom: 8px !important;
+    }
+
+    .opt-btn-bg-height-CW2 {
+        padding-bottom: 8px !important;
+    }
+
+    .rdbtnAvailabilityafter {
+        margin-left: 0px !important;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .dom-md2 {
+        margin-right: -18px !important;
+    }
+
+    .prefalign {
+        margin-bottom: 1px !important;
+        margin-right: -12px !important;
+    }
+
+    .splareawidth {
+        width: 92% !important;
+    }
+
+    .splskillwidth {
+        width: 92% !important;
+    }
+
+    .opt-btn-bg-height-WA {
+        height: 35px !important;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .prefalign {
+        margin-bottom: 1px !important;
+    }
+
+    .splhgt {
+        height: 350px !important;
+    }
+
+    /*.widget {
+                margin-top: 12px !important;
+            }*/
+
+    #divpadd1 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #divpadd2 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #divpadd3 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #divpadd4 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    /*.pubhgt {
+                height: 280px !important;
+            }*/
+
+    .pref-wgt-pad {
+        padding: 0px 2px 0px 0px !important;
+    }
+
+    .opt-btn-bg-height-WA {
+        padding-bottom: 15px !important;
+    }
+
+    .opt-btn-bg-height-usdeg {
+        padding-bottom: 7px !important;
+    }
+
+    .opt-btn-bg-height-FA1 {
+        padding-bottom: 35px !important;
+    }
+
+    .opt-btn-bg-height-FA2 {
+        padding-bottom: 10px !important;
+    }
+
+    .opt-btn-bg-height-CW1 {
+        padding-bottom: 7px !important;
+    }
+
+    .opt-btn-bg-height-CW2 {
+        padding-bottom: 7px !important;
+    }
+
+    .rdoprofilesecurityalign {
+        margin-left: 0px !important;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+    .splhgt {
+        height: 420px !important;
+    }
+}
+@media screen and (min-width:800px) and (max-width:950px) {
+    .rdbtnAvailabilityafter {
+        margin-left: 0px !important;
+    }
+
+    #lblrdnousdegree {
+        padding-left: 10px !important;
+    }
+
+    .opt-btn-bg-height-WA {
+        padding-bottom: 5px !important;
+    }
+
+    .opt-btn-bg-height-usdeg {
+        padding-bottom: 7px !important;
+    }
+
+    .opt-btn-bg-height-FA1 {
+        padding-bottom: 58px !important;
+    }
+
+    .opt-btn-bg-height-FA2 {
+        padding-bottom: 10px !important;
+    }
+
+    .opt-btn-bg-height-CW1 {
+        padding-bottom: 7px !important;
+    }
+
+    .opt-btn-bg-height-CW2 {
+        padding-bottom: 7px !important;
+    }
+
+    .rdoprofilesecurityalign {
+        margin-left: 0px !important;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .rdoprofilesecurityalign {
+        margin-left: 0px !important;
+    }
+
+    #opt-btn-prof-align-hd {
+        padding-left: 30px !important;
+    }
+
+    /*#opt-btn-prof-align-usdg {
+        padding-left: 20px !important;
+    }*/
+
+    .rdbtnAvailabilityafter {
+        margin-left: 0px !important;
+    }
+}
+.form-group
+{
+    margin-bottom:20px !important;
+}
+#editresumecontent.divbody
+{
+    padding:50px 25px 50px 25px !important;
+}
+.pad0
+{
+    padding:0px !important;
+}
+.padleft30
+{
+    padding-left:30px !important;
+}
+#cssmenu2 > ul > li > a
+{
+    padding-bottom:0px !important;
+}
+@media screen and (min-width:1200px) and (max-width:1300px)
+{
+    #cssmenu2 ul li
+    {
+        width:125px !Important;
+    }
+}
+@media screen and (min-width:1200px) and (max-width:1400px)
+{
+    #divWorkAuthorization .radiocontainer 
+    {
+        margin-bottom:0px !important;
+    }
+    #rdbtnNH1B
+    {
+        padding-right:15px !important;
+    }
+    #chkPreferredEmployment > div
+    {
+        padding:0px !important;
+    }
+    #chkPreferredEmployment > .checkbox label
+    {
+        padding-left:30px !important;
+    }
+    #divFetchAlertMax label
+    {
+        width:38% !important;
+        white-space:initial !important;
+        text-align:left !important;
+    }
+    #corpcorpcontent label
+    {
+        padding-right:0px !important;
+    }
+
+}
+@media screen and (min-width:1400px) and (max-width:1500px) {
+    #divFetchAlertMax label
+    {
+        width:38% !important;
+        white-space:initial !important;
+        text-align:left !important;
+    }
+}
+@media screen and (max-width:768px)
+{
+    #cssmenu2 ul li
+    {
+        width: inherit !important;
+    }
+    #txtPhoneW, #ddlPreferredTime
+    {
+        margin-bottom:20px !important;
+    }
+    .checkbox label, .radio label
+    {
+        margin-bottom:20px !important;
+    }
+    #PreferenceUpdatePanel .form-group
+    {
+        margin-bottom:0px !important;
+    }
+    #corpcorpcontent div
+    {
+        padding-right:0px !important;
+    }
+    #socialmediacontent div
+    {
+         padding-right:0px !important;
+    }
+    #socialmediacontent .xsoverlappadding 
+    {
+        padding-left:10px !important;
+    }
+    #SpecialNotesPanel,#PreferenceUpdatePanel .col-sm-offset-2
+    {
+        padding-left:15px !important;
+        padding-top:15px !important;
+    }
+    #SpecialNotesPanel .col-sm-offset-2
+    {
+        padding-left:30px !important;
+    }
+    #btnsrchfetchjob
+    {
+        width:100% !important;
+    }
+    #chkPreferredEmployment.padleft30
+    {
+        padding-left:25px !important;
+    }
+    #divWorkAuthorization .radiocontainer 
+    {
+        margin-bottom:0px !important;
+    }
+     #divWorkAuthorization .xspadalign 
+    {
+       padding-right:0px !important;
+       padding-top:20px !important;
+    }
+          #radjstypediv 
+       {
+           height:80px !important;
+       }
+    
+    #PreferenceUpdatePanel .xsheadalign
+    {
+        padding-right:0px !important;
+    }
+}
+@media screen and (max-width:768px)
+{
+    #contentdiv
+    {
+        width:100% !important;
+    }
+    .widget .widget-body
+    {
+        padding:25px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:800px)
+{
+   
+     #divWorkAuthorization .xspadalign 
+    {
+       padding-right:0px !important;
+       padding-top:0px !important;
+    }
+}
+
+  @media screen and (max-width:1399px)
+         {
+   
+           
+             .checkbox-inline, .radio-inline
+             {
+                 padding-left:0px;
+             }
+              .mrgnalign #ddlnh1blist.fieldtextbox{width:90% !important;}
+
+       .mrgnalign select#ddlnh1blist {
+                margin-left: 0px !important;
+            }
+         }
+  @media screen and (max-width:1500px)
+  {
+       .widget
+     {
+         margin-bottom :0px !important;
+     }
+  }
+/*contactus Page Changes*/
+
+.searchfield {
+    border-radius: 4px !important;
+    background-color: #ffffff;
+    border: solid 1px #ebedf8;
+    height: 40px;
+}
+#btnsrchfetchjob {
+    padding: 13px 30px !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.0px;
+    color: #ffffff !important;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    background-color: #ec5939;
+    height: auto !important;
+}
+@media (min-width:991px) {
+    #btnsrchfetchjob {
+        margin-left: -19px;
+    }
+
+    .divloc {
+        margin-left: 15px;
+        margin-right: 30px;
+    }
+}
+@media(max-width:991px) {
+    .divloc {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+.divbody {
+    margin: 40px 15px 50px 15px;
+    padding: 50px 50px 50px 50px;
+    min-height: 302px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.divpadcenter {  padding: 20px 10px 10px 0px;}
+.padlft20 { padding-left: 20px;}
+#contact { background-color: #fff;}
+.font14withblack {
+    font-size: 14px !important;
+    color: #000000 !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.2px;
+}
+.mrgbot20 { margin-bottom: 20px;
+}
+#searcharea form-control{ letter-spacing:0.2px;}
+#searcharea{ padding: 10px 15px 10px 80px;}
+       @media (min-width: 1301px) and  (max-width: 1500px) {
+            #searcharea {
+                padding: 10px 15px 10px 60px !important;
+            }
+        }
+          @media (min-width: 1101px) and (max-width: 1300px) {
+            #searcharea {
+              padding: 10px 15px 10px 40px !important;
+            }
+        }
+
+        @media (max-width: 1100px) {
+            #searcharea {
+                padding: 10px 60px 10px 40px !important;
+            }
+        }
+
+#contact form-control {letter-spacing: 0.2PX;}
+#contact #btnSendMail, #btnreset {
+    border-radius: 4px;
+    background-color: #ec5939;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.0px;
+    text-align: left;
+    font-size: 15px;
+    color: #ffffff;
+    border: 1px solid #ec5939;
+}
+/*.form-horizontal .control-label{text-align:left }*/
+
+            .blklnk{color:#434343 !important; text-decoration:underline;}
+            .haserror {
+    border-color: #ff0000 !important;
+    background-image: url('/img/error-icon.png');
+    padding-right: 20px;
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+}
+.padtop30{  padding-top:30px;}
+
+/* abt us */
+#content h2 {
+    font: normal normal bold 15px "LatoWeb";
+}
+#content {
+    font: normal 15px "LatoWeb";
+    color: #333333;
+    text-align: justify;
+    line-height: 2.0em;
+}
+.heading {
+    font: normal normal bold 15px "LatoWeb";
+}
+.crv3 {
+    width: 864px;
+    margin: 10px;
+}
+
+    .crv3 h1 {
+        margin: 0 10px;
+        font: bold 19px "LatoWeb";
+        color: navy;
+        border-bottom: 1px solid navy;
+    }
+    .crv3 fieldset {
+        margin: 10px;
+        border: 1px solid #c0c0c0;
+    }
+        .crv3 fieldset legend {
+            margin-left: 10px;
+            font: bold 16px "LatoWeb";
+            color: #666;
+        }
+
+        .crv3 fieldset ul {
+            float: left;
+            list-style: none;
+            border: 0;
+            padding: 0;
+            margin: 0;
+        }
+
+            .crv3 fieldset ul li {
+                width: 180px;
+                list-style-type: none;
+                margin: 8px 0px 12px 20px;
+                padding: 0;
+                height: 15px;
+            }
+
+                .crv3 fieldset ul li a {
+                    font: normal 13px "LatoWeb";
+                    color: #0000cc;
+                    text-decoration: underline;
+                }
+
+                    .crv3 fieldset ul li a.nu {
+                        text-decoration: none;
+                    }
+.tabtitle {
+    text-align: justify;
+    margin: 15px 15px 0 10px;
+    color: #165C98;
+    font: normal 20px "LatoWeb";
+}
+/*terms*/
+.dvCust {
+    /*padding: 0 17px;*/
+    color: #333333;
+    line-height: 2.0em;
+}
+
+    .dvCust h1 {
+        margin: 15px 0 0 0;
+        padding: 5px 0 0 0;
+        font: normal 20px "LatoWeb";
+        color: #165C98;
+    }
+
+    .dvCust p {
+        margin: 0;
+        padding: 8px 0;
+        font: normal 15px 'LatoWeb';
+        line-height: 2.0em;
+        text-align: justify;
+    }
+
+        .dvCust p a {
+            color: Blue;
+        }
+
+    .dvCust ul {
+        margin: 0;
+        padding: 0 30px;
+        list-style-type: lower-roman;
+
+    }
+
+        .dvCust ul li {
+            margin: 0;
+            padding: 0;
+            font: normal 15px 'LatoWeb';
+            line-height: 2.0em;
+        }
+
+    .dvCust h2 {
+        margin: 0;
+        padding: 8px 0 2px 0;
+        font: bold 15px 'LatoWeb';
+    }
+
+    .dvCust h3 {
+        margin: 0;
+        padding: 8px 0 2px 0;
+        font: bold 15px 'LatoWeb';
+    }
+
+    .dvCust em {
+        font-size: 15px;
+    }
+.topads {
+    text-align: right;
+}
+
+#col9 {
+    float: none;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.borderfull {
+    width: 99%;
+    margin: 10px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 2px solid #D0D2D3;
+}
+        .tabtilte {
+            text-align: justify;
+            font:  normal 20px "LatoWeb";
+            color: #165C98;
+        }
+        /* create job alert*/
+        #Createalert{
+            background:#ffffff !important;
+        }
+.titleheader {
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #000000;
+    padding: 9px;
+}
+.customchkcontainer {
+    display: block;
+    position: relative;
+    padding-left: 30px !important;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+    .customchkcontainer input {
+        position: absolute;
+        opacity: 0;
+    }
+
+.customcheckmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 19px;
+    width: 19px;
+    border-radius: 4px;
+    border: solid 1.7px #cccfd4;
+    color: #434343 !important;
+}
+
+.customchkcontainer input:checked ~ .customcheckmark {
+    background-color: #3498db;
+    border: solid 0 #3498db;
+    border: none;
+}
+
+.customcheckmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.customchkcontainer input:checked ~ .customcheckmark:after {
+    display: block;
+}
+
+.customchkcontainer .customcheckmark:after {
+    left: 7px;
+    top: 2px;
+    width: 7px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.botbordernone {
+    border-bottom: none !important;
+}
+.chkfieldname {
+           opacity: 0.5 !important;
+           font-weight: 500 !important;
+           font-style: normal !important;
+           font-stretch: normal !important;
+           line-height: normal !important;
+           letter-spacing: normal !important;
+           text-align: left !important;
+           color: #000000 !important;          
+           font-size:16px !important;
+       }
+        label input[type="checkbox"]:checked ~ span {
+           color:#000000 !important;
+           font-weight: normal !important;
+           font-style: normal !important;
+           font-stretch: normal !important;
+           line-height: normal !important;
+           letter-spacing: normal !important;
+           text-align: left !important;
+           opacity:unset !important;
+           font-size:16px !important;          
+       }
+        .fielddropdown {
+            border-radius: 1px !important;
+            background-color: #fcfcfc;
+            border: solid 0.5px #d3dce3;
+            box-shadow: none !important;
+            font-size: 16px !important;
+            display: block !important;
+            width: 100% !important;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #000000 !important;
+            background-image: none;
+            outline: none !important;
+        }
+.bgwhite {
+    background: #ffffff;
+}
+/*Login Signup */
+#pnlReg .chkfieldname {
+    font-size: 12px !important;
+    text-align: left;
+    color: #434343 !important;
+    padding-left: 20px;
+}
+#pnlReg .customchkcontainer {
+    margin-bottom: 0px !important;
+}
+    #pnlReg .customchkcontainer p {
+        margin-bottom: 0px !important;
+    }
+@media(min-width:1200px) and (max-width:1350px) {
+    .imgwidth {
+        max-width: 350px;
+    }
+}
+@media(min-width:767px) and (max-width:991px) {
+    .imgwidth {
+        max-width: 320px;
+    }
+}
+  @media (max-width:1200px) {
+            .mdpadtop10 {
+                padding-top: 10px;
+            }
+            #relocationdiv {
+                text-align: left !important;
+            }
+
+            .smpad {
+                padding-left: 0px !important;
+                padding-right: 0px !important;
+            }
+        }
+          @media (min-width:767px) and (max-width:991px) {
+            .smpadrgiht {
+                padding-right: 15px !important;
+            }
+        }
+
+@media(max-width:767px) {
+    .divbody {
+        margin: 40px 15px 50px 5px;
+    }
+}
